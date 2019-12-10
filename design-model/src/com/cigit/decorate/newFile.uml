@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="189.0" y="0.0">com.cigit.decorate.Drink</node>
+    <node x="294.5" y="80.0">com.cigit.decorate.Coffe</node>
+    <node x="126.0" y="160.0">com.cigit.decorate.Milk</node>
+    <node x="57.25" y="80.0">com.cigit.decorate.Decorate</node>
+    <node x="0.0" y="160.0">com.cigit.decorate.Chocolate</node>
+    <node x="219.0" y="160.0">com.cigit.decorate.Espresso</node>
+    <node x="340.0" y="160.0">com.cigit.decorate.BitterCoffee</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.cigit.decorate.Decorate" target="com.cigit.decorate.Drink">
+      <point x="0.0" y="-15.0" />
+      <point x="107.75" y="55.0" />
+      <point x="208.75" y="55.0" />
+      <point x="-19.75" y="15.0" />
+    </edge>
+    <edge source="com.cigit.decorate.Coffe" target="com.cigit.decorate.Drink">
+      <point x="0.0" y="-15.0" />
+      <point x="334.0" y="55.0" />
+      <point x="248.25" y="55.0" />
+      <point x="19.75" y="15.0" />
+    </edge>
+    <edge source="com.cigit.decorate.BitterCoffee" target="com.cigit.decorate.Coffe">
+      <point x="0.0" y="-15.0" />
+      <point x="398.5" y="135.0" />
+      <point x="353.75" y="135.0" />
+      <point x="19.75" y="15.0" />
+    </edge>
+    <edge source="com.cigit.decorate.Espresso" target="com.cigit.decorate.Coffe">
+      <point x="0.0" y="-15.0" />
+      <point x="269.5" y="135.0" />
+      <point x="314.25" y="135.0" />
+      <point x="-19.75" y="15.0" />
+    </edge>
+    <edge source="com.cigit.decorate.Chocolate" target="com.cigit.decorate.Decorate">
+      <point x="0.0" y="-15.0" />
+      <point x="53.0" y="135.0" />
+      <point x="82.5" y="135.0" />
+      <point x="-25.25" y="15.0" />
+    </edge>
+    <edge source="com.cigit.decorate.Milk" target="com.cigit.decorate.Decorate">
+      <point x="0.0" y="-15.0" />
+      <point x="162.5" y="135.0" />
+      <point x="133.0" y="135.0" />
+      <point x="25.25" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="0.0" y="0.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

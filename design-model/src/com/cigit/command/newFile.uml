@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="168.5" y="0.0">com.cigit.command.Command</node>
+    <node x="0.0" y="80.0">com.cigit.command.NoCommand</node>
+    <node x="319.0" y="80.0">com.cigit.command.LightOffCommand</node>
+    <node x="196.0" y="155.0">com.cigit.command.LightReceiver</node>
+    <node x="146.0" y="80.0">com.cigit.command.LightOnCommand</node>
+    <node x="0.0" y="155.0">com.cigit.command.RemoteController</node>
+    <node x="366.0" y="155.0">com.cigit.command.Client</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.cigit.command.LightOffCommand" target="com.cigit.command.Command">
+      <point x="0.0" y="-15.0" />
+      <point x="396.0" y="55.0" />
+      <point x="258.5" y="55.0" />
+      <point x="36.0" y="15.0" />
+    </edge>
+    <edge source="com.cigit.command.LightOnCommand" target="com.cigit.command.Command">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.cigit.command.NoCommand" target="com.cigit.command.Command">
+      <point x="0.0" y="-15.0" />
+      <point x="63.0" y="55.0" />
+      <point x="186.5" y="55.0" />
+      <point x="-36.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="0.0" y="16.0" />
+  <SelectedNodes>
+    <node>com.cigit.command.LightReceiver</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

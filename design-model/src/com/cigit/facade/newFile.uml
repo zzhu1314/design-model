@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="225.0">com.cigit.facade.Screen</node>
+    <node x="132.0" y="225.0">com.cigit.facade.Stereo</node>
+    <node x="146.0" y="150.0">com.cigit.facade.Popcorn</node>
+    <node x="0.0" y="150.0">com.cigit.facade.Projector</node>
+    <node x="0.0" y="300.0">com.cigit.facade.Client</node>
+    <node x="165.0" y="75.0">com.cigit.facade.DVDPlayer</node>
+    <node x="0.0" y="75.0">com.cigit.facade.TheaterLight</node>
+    <node x="0.0" y="0.0">com.cigit.facade.HomeTheaterFacade</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="1.0" x="778.0" y="310.5" />
+  <SelectedNodes>
+    <node>com.cigit.facade.Stereo</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

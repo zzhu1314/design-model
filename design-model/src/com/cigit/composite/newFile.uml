@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="261.0" y="90.0">com.cigit.composite.College</node>
+    <node x="733.8333333333333" y="148.0">com.cigit.composite.OrganizationComponent</node>
+    <node x="137.0" y="90.0">com.cigit.composite.University</node>
+    <node x="0.0" y="90.0">com.cigit.composite.Department</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.cigit.composite.University" target="com.cigit.composite.OrganizationComponent">
+      <point x="-34.66666666666666" y="-15.0" />
+      <point x="154.33333333333331" y="70.0" />
+      <point x="170.52083333333331" y="70.0" />
+      <point x="-35.8125" y="15.0" />
+    </edge>
+    <edge source="com.cigit.composite.Department" target="com.cigit.composite.OrganizationComponent">
+      <point x="-29.25" y="-15.0" />
+      <point x="29.25" y="60.0" />
+      <point x="122.77083333333331" y="60.0" />
+      <point x="-83.5625" y="15.0" />
+    </edge>
+    <edge source="com.cigit.composite.College" target="com.cigit.composite.OrganizationComponent">
+      <point x="30.666666666666657" y="-15.0" />
+      <point x="337.66666666666663" y="50.0" />
+      <point x="289.8958333333333" y="50.0" />
+      <point x="83.5625" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="778.0" y="303.5" />
+  <SelectedNodes>
+    <node>com.cigit.composite.OrganizationComponent</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

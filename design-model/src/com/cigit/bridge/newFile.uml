@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="80.0">com.cigit.bridge.Phone</node>
+    <node x="93.21944444444446" y="0.0">com.cigit.bridge.Brand</node>
+    <node x="18.091666666666697" y="160.0">com.cigit.bridge.FoldedPhone</node>
+    <node x="104.00000000000003" y="80.0">com.cigit.bridge.Vivo</node>
+    <node x="197.00000000000003" y="80.0">com.cigit.bridge.XiaoMi</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.cigit.bridge.FoldedPhone" target="com.cigit.bridge.Brand">
+      <point x="41.33333333333334" y="-15.0" />
+      <point x="121.42500000000004" y="135.0" />
+      <point x="296.5" y="135.0" />
+      <point x="296.5" y="50.0" />
+      <point x="167.91944444444445" y="50.0" />
+      <point x="33.19999999999999" y="15.0" />
+    </edge>
+    <edge source="com.cigit.bridge.FoldedPhone" target="com.cigit.bridge.Phone">
+      <point x="-41.33333333333334" y="-15.0" />
+      <point x="38.758333333333354" y="135.0" />
+      <point x="21.0" y="135.0" />
+      <point x="-21.0" y="15.0" />
+    </edge>
+    <edge source="com.cigit.bridge.Vivo" target="com.cigit.bridge.Brand">
+      <point x="0.0" y="-15.0" />
+      <point x="140.50000000000003" y="60.0" />
+      <point x="134.71944444444446" y="60.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.cigit.bridge.XiaoMi" target="com.cigit.bridge.Brand">
+      <point x="0.0" y="-15.0" />
+      <point x="241.50000000000003" y="60.0" />
+      <point x="151.31944444444446" y="60.0" />
+      <point x="16.599999999999994" y="15.0" />
+    </edge>
+    <edge source="com.cigit.bridge.Phone" target="com.cigit.bridge.Brand">
+      <point x="21.0" y="-15.0" />
+      <point x="63.0" y="60.0" />
+      <point x="118.11944444444447" y="60.0" />
+      <point x="-16.599999999999994" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="0.0" y="0.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

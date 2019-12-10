@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="312.33333333333337" y="300.0">com.cigit.state.Client</node>
+    <node x="302.00000000000006" y="90.0">com.cigit.state.DispenseOutState</node>
+    <node x="0.0" y="90.0">com.cigit.state.DispenseState</node>
+    <node x="150.00000000000006" y="90.0">com.cigit.state.CanRaffleState</node>
+    <node x="473.00000000000006" y="90.0">com.cigit.state.NoRaffleState</node>
+    <node x="291.83333333333337" y="220.0">com.cigit.state.RaffleActivity</node>
+    <node x="409.1375661375662" y="0.0">com.cigit.state.State</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.cigit.state.Client" target="com.cigit.state.RaffleActivity">
+      <point x="20.0" y="-15.0" />
+      <point x="372.33333333333337" y="275.0" />
+      <point x="382.58333333333337" y="275.0" />
+      <point x="30.25" y="15.0" />
+    </edge>
+    <edge source="com.cigit.state.DispenseOutState" target="com.cigit.state.RaffleActivity">
+      <point x="50.33333333333334" y="15.0" />
+      <point x="427.83333333333337" y="150.0" />
+      <point x="365.2976190476191" y="150.0" />
+      <point x="12.964285714285722" y="-15.0" />
+    </edge>
+    <edge source="com.cigit.state.NoRaffleState" target="com.cigit.state.RaffleActivity">
+      <point x="0.0" y="15.0" />
+      <point x="537.0" y="170.0" />
+      <point x="382.58333333333337" y="170.0" />
+      <point x="30.25" y="-15.0" />
+    </edge>
+    <edge source="com.cigit.state.RaffleActivity" target="com.cigit.state.DispenseOutState">
+      <point x="-4.321428571428555" y="-15.0" />
+      <point x="348.0119047619048" y="140.0" />
+      <point x="327.1666666666667" y="140.0" />
+      <point x="-50.333333333333336" y="15.0" />
+    </edge>
+    <edge source="com.cigit.state.DispenseState" target="com.cigit.state.RaffleActivity">
+      <point x="43.33333333333337" y="15.0" />
+      <point x="108.33333333333337" y="180.0" />
+      <point x="313.44047619047626" y="180.0" />
+      <point x="-38.89285714285711" y="-15.0" />
+    </edge>
+    <edge source="com.cigit.state.DispenseState" target="com.cigit.state.State">
+      <point x="0.0" y="-15.0" />
+      <point x="65.0" y="50.0" />
+      <point x="415.55423280423287" y="50.0" />
+      <point x="-32.083333333333314" y="15.0" />
+    </edge>
+    <edge source="com.cigit.state.CanRaffleState" target="com.cigit.state.RaffleActivity">
+      <point x="44.0" y="15.0" />
+      <point x="260.00000000000006" y="150.0" />
+      <point x="339.3690476190477" y="150.0" />
+      <point x="-12.964285714285666" y="-15.0" />
+    </edge>
+    <edge source="com.cigit.state.DispenseOutState" target="com.cigit.state.State">
+      <point x="0.0" y="-15.0" />
+      <point x="377.50000000000006" y="70.0" />
+      <point x="441.2208994708995" y="70.0" />
+      <point x="-6.416666666666686" y="15.0" />
+    </edge>
+    <edge source="com.cigit.state.CanRaffleState" target="com.cigit.state.State">
+      <point x="0.0" y="-15.0" />
+      <point x="216.00000000000006" y="60.0" />
+      <point x="428.3875661375662" y="60.0" />
+      <point x="-19.25" y="15.0" />
+    </edge>
+    <edge source="com.cigit.state.RaffleActivity" target="com.cigit.state.DispenseState">
+      <point x="-56.17857142857139" y="-15.0" />
+      <point x="296.154761904762" y="200.0" />
+      <point x="21.666666666666686" y="200.0" />
+      <point x="-43.333333333333314" y="15.0" />
+    </edge>
+    <edge source="com.cigit.state.NoRaffleState" target="com.cigit.state.State">
+      <point x="0.0" y="-15.0" />
+      <point x="537.0" y="70.0" />
+      <point x="454.0542328042329" y="70.0" />
+      <point x="6.416666666666686" y="15.0" />
+    </edge>
+    <edge source="com.cigit.state.RaffleActivity" target="com.cigit.state.State">
+      <point x="56.178571428571445" y="-15.0" />
+      <point x="408.5119047619048" y="200.0" />
+      <point x="620.1428571428572" y="200.0" />
+      <point x="620.1428571428572" y="50.0" />
+      <point x="479.72089947089955" y="50.0" />
+      <point x="32.08333333333332" y="15.0" />
+    </edge>
+    <edge source="com.cigit.state.RaffleActivity" target="com.cigit.state.NoRaffleState">
+      <point x="21.60714285714289" y="-15.0" />
+      <point x="373.94047619047626" y="160.0" />
+      <point x="494.33333333333337" y="160.0" />
+      <point x="-42.66666666666666" y="15.0" />
+    </edge>
+    <edge source="com.cigit.state.RaffleActivity" target="com.cigit.state.CanRaffleState">
+      <point x="-30.25" y="-15.0" />
+      <point x="322.08333333333337" y="170.0" />
+      <point x="172.00000000000006" y="170.0" />
+      <point x="-44.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="0.0" y="0.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="10.604166666666686" y="160.0">com.cigit.observer.ConcreteSubject</node>
+    <node x="0.0" y="80.0">com.cigit.observer.Subject</node>
+    <node x="117.35416666666669" y="-6.0">com.cigit.observer.Observer</node>
+    <node x="120.97916666666669" y="240.0">com.cigit.observer.Client</node>
+    <node x="172.60416666666669" y="160.0">com.cigit.observer.ConcreteObserve01</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.cigit.observer.Subject" target="com.cigit.observer.Observer">
+      <point x="0.0" y="-15.0" />
+      <point x="45.0" y="55.0" />
+      <point x="71.10416666666669" y="55.0" />
+      <point x="-38.25" y="15.0" />
+    </edge>
+    <edge source="com.cigit.observer.ConcreteSubject" target="com.cigit.observer.Observer">
+      <point x="47.33333333333334" y="-15.0" />
+      <point x="128.93750000000003" y="135.0" />
+      <point x="115.34895833333334" y="135.0" />
+      <point x="115.34895833333334" y="55.0" />
+      <point x="122.10416666666669" y="55.0" />
+      <point x="12.75" y="15.0" />
+    </edge>
+    <edge source="com.cigit.observer.ConcreteSubject" target="com.cigit.observer.Subject">
+      <point x="-47.33333333333334" y="-15.0" />
+      <point x="34.27083333333334" y="135.0" />
+      <point x="45.0" y="135.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.cigit.observer.Client" target="com.cigit.observer.ConcreteObserve01">
+      <point x="30.0" y="-15.0" />
+      <point x="190.97916666666669" y="220.0" />
+      <point x="294.8541666666667" y="220.0" />
+      <point x="40.75" y="15.0" />
+    </edge>
+    <edge source="com.cigit.observer.Client" target="com.cigit.observer.ConcreteSubject">
+      <point x="-10.0" y="-15.0" />
+      <point x="150.97916666666669" y="210.0" />
+      <point x="117.10416666666669" y="210.0" />
+      <point x="35.5" y="15.0" />
+    </edge>
+    <edge source="com.cigit.observer.ConcreteObserve01" target="com.cigit.observer.Observer">
+      <point x="0.0" y="-15.0" />
+      <point x="254.10416666666669" y="55.0" />
+      <point x="147.60416666666669" y="55.0" />
+      <point x="38.25" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="0.0" y="0.0" />
+  <SelectedNodes>
+    <node>com.cigit.observer.Observer</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

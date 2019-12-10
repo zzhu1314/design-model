@@ -1,0 +1,25 @@
+迭代器模式（行为型）：
+ 责任和职责：
+
+ Iterator（迭代器接口）：
+
+     该接口必须定义实现迭代功能的最小定义方法集
+
+     比如提供hasNext()和next()方法。
+
+ ConcreteIterator（迭代器实现类）：
+
+     迭代器接口Iterator的实现类。可以根据具体情况加以实现。
+
+ Aggregate（容器接口）：
+
+     定义基本功能以及提供类似Iteratoriterator()的方法。
+
+ ConcreteAggregate（容器实现类）：
+
+     容器接口的实现类。必须实现Iteratoriterator()方法。
+
+  迭代器模式将元素的存储和元素的遍历职责分离
+ List相当于Aggregate（聚合接口，管理数据）
+ ArrayList相当于ConcreteAggregate
+ ArrayList的内部类Itr相当于ConcreteIterator，用于遍历数据
