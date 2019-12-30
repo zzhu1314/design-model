@@ -6,4 +6,5 @@ package com.cigit.proxy.dynamic;
  **/
 public interface ITeachDao {
     void teach();
+    void noTeach();
 }

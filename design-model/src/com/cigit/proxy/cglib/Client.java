@@ -10,5 +10,6 @@ public class Client {
         ProxyFactory proxyFactory = new ProxyFactory(teacherDao);
         TeacherDao proxyInstance = (TeacherDao) proxyFactory.getProxyInstance();
         proxyInstance.teach("张三");
+        proxyInstance.noTeach();
     }
 }

@@ -10,6 +10,7 @@ public class Client {
         ProxyFactory proxyFactory = new ProxyFactory(teachDao);
         ITeachDao proxyInstance = (ITeachDao) proxyFactory.getProxyInstance();
         proxyInstance.teach();
+        //proxyInstance.noTeach();
 
 
     }
