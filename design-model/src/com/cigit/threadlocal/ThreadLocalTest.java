@@ -1,5 +1,7 @@
 package com.cigit.threadlocal;
 
+import java.util.WeakHashMap;
+
 /**
  * @Description:
  * @Author:zhuzhou
@@ -12,6 +14,7 @@ package com.cigit.threadlocal;
  *
  *
  *  用途：在spring的事务管理中，ThreadLocal用来存储Connection连接，保证在同一线程下的Connection是相同的，才能进行事务回滚
+ *  WeakHashMap跟ThreadLocal类似
  **/
 public class ThreadLocalTest {
     public static void main(String[] args) {
@@ -38,5 +41,17 @@ public class ThreadLocalTest {
             }
             System.out.println(Thread.currentThread().getName()+"\t"+threadLocal.get());
         }).start();
+    }
+
+    public static  void myWeakHashMap(){
+        WeakHashMap<Integer, Object> m = new WeakHashMap<>();
+        Integer i = new Integer(2);
+        m.put(i,new Object());
+        System.out.println(m);
+
+        //i=null; 只有当i为null，没有强引用指向Integer，gc触发时key作为被软引用指向的对象，才会被回收
+        //此时的value并不会被回收，这里会监听ReferenceQueue队列，把Entry.value=null，这里处理的value的Gc
+        System.gc();
+        System.out.println(m);
     }
 }
